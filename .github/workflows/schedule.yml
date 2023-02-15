@@ -4,8 +4,6 @@ on:
     types: [build-event]
   schedule:
     - cron: "0 0 * * *"
-permissions:
-  contents: write
 jobs:
   update-gist:
     runs-on: ubuntu-latest
